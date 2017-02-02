@@ -1,0 +1,3 @@
+Reflections: Lesson 1
+- what happens when I initialize a repo? Why is it necessary?
+- basically, it creates a blank repo in the current directory which isn't tracking any files and needs to be spun up a bit
