@@ -1,0 +1,21 @@
+Reflections: Lesson 1
+- version control makes debugging easier
+- using diff software hastens debugging
+
+- version control is great for keeping history of an entire project
+
+Pros & Cons of manual version saving:
+Pros: 
+	- much more control over commit size and frequency
+	- commits are tied to logical changes
+Cons:
+	- have to remember to save, possible to lose work
+
+- Git probably allows multiple files to be changed in a single commit to allow for individual commits to represent logical milestones that can span the entire project instead of just the history of one file.
+
+- can use 'Git log' to get a quick snapshot of the recent commits to the repo, and 'Git diff' is good for finding the changes made between commits
+	note: using the 'git config --global color.ui auto' command is useful for making 'git diff' easier to read with more UI colors
+
+- using VC gives confidence to make potentially program breaking bugs because you have good control over the versions of the software and it is easy to traverse between versions in order to isolate issues.
+
+- I want to use Git to effectively develop and make changes to my work Repos
