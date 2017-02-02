@@ -1,3 +1,5 @@
 Reflections: Lesson 1
 - what happens when I initialize a repo? Why is it necessary?
 - basically, it creates a blank repo in the current directory which isn't tracking any files and needs to be spun up a bit
+
+- staging is different from working directory and the repo because it acts like an in-between area that gives you much more granular control over how your commits are added to the repo
