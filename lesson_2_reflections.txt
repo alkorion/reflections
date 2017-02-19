@@ -1,11 +1,24 @@
 Reflections: Lesson 1
-- what happens when I initialize a repo? Why is it necessary?
+
+What happens when you initialize a repo? Why is it necessary?
 - basically, it creates a blank repo in the current directory which isn't tracking any files and needs to be spun up a bit
 
+[Q]
 - staging is different from working directory and the repo because it acts like an in-between area that gives you much more granular control over how your commits are added to the repo
 
+[Q]
 - I can use the staging section in conjunction w/ "git status" to verify what each commit will look like before actually committing. This allows greater control over my commits
 
+[Q]
 - using branches can help keep history organized by giving human readable names to various commit paths (aka branches) that can be tracked and updated seperately
 
+[Q]
 - diagrams help me visualize the branch structure by laying out paths that follow the same history as the commits. This makes it easier to see connections and internalize the state of the repo with its many branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- merging two branches creates a single branch from the optimized "merged " result. This branch keeps both cimmit histories in it's history. The branch resulting from the merge becomes the new tip of the branch that was checked out during the merge
+- The diagram question is dumb
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- pros: some parts of the merge are automated (don't need to micromanage code). Git doesn't "over-automate" the merge so there is little chance of functionality being affected, good for merging collaborations when working on seperate functionality
+- cons: git can't resolve some fairly obvious merge conflicts, less granular control over merging (pointless if the code is still equally functional)
