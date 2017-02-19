@@ -3,3 +3,9 @@ Reflections: Lesson 1
 - basically, it creates a blank repo in the current directory which isn't tracking any files and needs to be spun up a bit
 
 - staging is different from working directory and the repo because it acts like an in-between area that gives you much more granular control over how your commits are added to the repo
+
+- I can use the staging section in conjunction w/ "git status" to verify what each commit will look like before actually committing. This allows greater control over my commits
+
+- using branches can help keep history organized by giving human readable names to various commit paths (aka branches) that can be tracked and updated seperately
+
+- diagrams help me visualize the branch structure by laying out paths that follow the same history as the commits. This makes it easier to see connections and internalize the state of the repo with its many branches
