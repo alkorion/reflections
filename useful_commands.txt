@@ -1,0 +1,4 @@
+# Here I will add commands and notes on commands that I use often or find useful
+
+git checkout -b <new branch name>
+	create a branch and check it out in the same command
